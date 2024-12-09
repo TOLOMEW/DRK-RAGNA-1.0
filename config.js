@@ -20,7 +20,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vakp0UnIC
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/vRR63CN.jpeg,https://i.imgur.com/ovCfp9J.jpeg,https://i.imgur.com/edzo5dj.jpeg";
 global.devs = "https://wa.me/50931461936 , https://wa.me/50931461936";
 global.sudo = process.env.SUDO || "50931461936";
-global.owner = process.env.OWNER_NUMBER || "PUT YOUR OWNER NUMBER";
+global.owner = process.env.OWNER_NUMBER || "254738934460";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "true";
@@ -43,7 +43,7 @@ global.scan = "https://drk-tech-2.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "mettre votre session ici"
+  "{"noiseKey":{"private":{"type":"Buffer","data":"SCuQi1iNkv527QkJNtF6KkdyX907wNJ6lpZNzABQCmg="},"public":{"type":"Buffer","data":"wGuscvu3D40BMkHDlF5Z7C7qMKN0Mo1Ied+6IphsUWc="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"4IfyfUhw8PRdzBMnIXDL6Zsjwfe68xYPCkoPIJMm6GU="},"public":{"type":"Buffer","data":"AvK41FKLKUyM1//rW/ohqReqb9mxazYZssZma/2pKQo="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"CK1azE0FqSt82FQz4ZAzvjJhakxq01d1Ua0AM1O9vlc="},"public":{"type":"Buffer","data":"PDT93qPqXkO9qTD73i0IjNuBX2/47EOxlp+IRYB9GwE="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"CIxr8ILngy9dKy8vHDwhNeExuzbrjj0I1lqQr7W+YUw="},"public":{"type":"Buffer","data":"nh6iIPvWh5WOROdUJCiuyAmzQuwVtHzhiWwE9mm1Jg8="}},"signature":{"type":"Buffer","data":"G0/f0aOW4K8eQ/IO1STlpcuwzAhGu6XtwKmePGVf+Cw16brm33IZAHgkg65mJAMUxPOHXVH5csrWqRRK60qfAQ=="},"keyId":1},"registrationId":207,"advSecretKey":"bTINuUGrstjpsSjjkdPSUkCFkCxL/pp+3YeF+y4ttn4=","processedHistoryMessages":[],"nextPreKeyId":1,"firstUnuploadedPreKeyId":1,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"PxUmD15vRzW_iGmfQcmywA","phoneId":"1db9f4c2-d534-4244-9d99-cd733ac4f608","identityId":{"type":"Buffer","data":"1VqvSB/II4JE97IlqWrL9lFSA7Y="},"registered":false,"backupToken":{"type":"Buffer","data":"L4YkX+CvcCZD8/sCdgzkpGr/358="},"registration":{},"pairingCode":"P9KC2XZB","me":{"id":"254738934460@s.whatsapp.net","name":"~"}}"
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
